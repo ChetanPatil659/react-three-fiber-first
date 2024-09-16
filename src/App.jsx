@@ -31,7 +31,7 @@ function RotatingCube() {
   return (
     <>
       <ambientLight intensity={1} />
-      <OrbitControls enableZoom={false} />
+      <OrbitControls enableZoom={false} enablePan={false} autoRotate={false} enableRotate={false}/>
       <ScrollControls pages={1}>
         <Overlay />
 
